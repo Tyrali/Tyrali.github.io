@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.navbar {
+	background-color: white !important;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between !important;
+  padding: 0.5rem 1rem;
+}
+
+		a:link {
+	color: rgba(249,193,245,1.00);
+		text-decoration: none;
+}
+        a:visited {
+    color: rgba(249,193,245,1.00); 
+}
+        a:hover {
+			color: rgba(172,172,172,1.00);
+}
+
+.nav-link{
+	color: rgba(249,193,245,1.00) !important;
+	
+}
+
+body {
+  background: url("../images/bgimage.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.font-weight-light {
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+    font-weight: 600 !important;
+	text-shadow:2px 2px 7px pink;
+	padding-left: 40px;
+}
+
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 2rem;
+    width: 50%;
+	margin-bottom: -7%;
+}
+.contact-form form{
+    padding: 10%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: lightpink;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: lightpink;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: lightpink;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+	
+}
+
+.footerleft{
+	
+	padding-left: 50px
+}
+
+
+.footeritem {
+	padding-top: 10px;
+}

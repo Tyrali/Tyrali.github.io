@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body {
+		
+	background: url("../projects/project2_portal/images/leaf_background.jpg") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 background-size: cover;
+  	-o-background-size: cover;
+		color:whitesmoke;		
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Kaushan Script', cursive;
+}
+	
+.headerbanner {
+	align-content: space-around;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+	text-shadow: 2px 5px 5px rgba(0,0,0,0.84);
+ 
+}
+.headerwhite {
+	align-content: center;
+	background-color: rgba(255,255,255,0.37);
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px
+	
+}
+
+	h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;    
+    margin-top: 35px;
+			}	
+
+.name {
+	padding-top: 45px;
+	padding-left: 10px;
+	
+}
+
+
+.projects {
+	border-radius: 50px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+ 	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+		
+
+    }
+
+
+.projectitles {
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+		padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.font-weight-light {
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+    font-weight: 600 !important;
+	text-shadow:2px 2px 7px pink;
+	padding-left: 40px;
+}
+
+.icon{
+	padding-left: 70px;
+}
+
+		a:link {
+	color: rgba(255,255,255,1.00);
+		text-decoration: none;
+}
+        a:visited {
+    color: rgba(255,255,255,1.00); 
+}
+        a:hover {
+			color: rgba(255,79,0,1.00);
+}

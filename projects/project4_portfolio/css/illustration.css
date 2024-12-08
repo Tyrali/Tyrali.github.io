@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.navbar {
+	background-color: white !important;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between !important;
+  padding: 0.5rem 1rem;
+}
+
+		a:link {
+	color: rgba(249,193,245,1.00);
+		text-decoration: none;
+}
+        a:visited {
+    color: rgba(249,193,245,1.00); 
+}
+        a:hover {
+			color: rgba(172,172,172,1.00);
+}
+
+.nav-link{
+	color: rgba(249,193,245,1.00) !important;
+	
+}
+
+/*Carousel goes here*/
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: url("../images/bgimage.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.font-weight-light {
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+    font-weight: 600 !important;
+	text-shadow:2px 2px 7px pink;
+	padding-left: 40px;
+}
+
+
+

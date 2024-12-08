@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg-primary {
+  background-color: #DFB7B6 !important;
+}
+
+.font-weight-light {
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+    font-weight: 600 !important;
+}
